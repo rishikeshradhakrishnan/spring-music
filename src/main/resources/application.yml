@@ -6,10 +6,10 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: "health,info"
   endpoint:
     health:
-      show-details: always
+      show-details: never
 
 ---
 spring:
